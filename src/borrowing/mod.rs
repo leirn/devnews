@@ -1,7 +1,7 @@
 #![allow(unused_variables, unused_mut)]
 
 pub fn borrowing1() {
-    let mut s = String::from("こんにちは世界");
+    let mut s:String = "こんにちは世界".into();
     let r1 = &mut s;
     // let r2 = &mut s; // Impossible car il y a déjà une référence mutable vers s
     // println!("{} {}", r1, r2);

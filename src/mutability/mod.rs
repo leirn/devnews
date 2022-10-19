@@ -15,7 +15,7 @@ pub fn mutability2() {
 pub fn mutability3() {
     let x = 5; // x est immutable
     println!("The value of x is: {x}");
-    let x = 6; // fonctionne car x est redéfini
+    let x = 6; // shadowing : fonctionne car x est redéfini
     println!("The value of x is: {x}");
 }
 
