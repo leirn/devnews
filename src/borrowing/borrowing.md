@@ -22,3 +22,8 @@ output: html_document
 Il est impossible d'avoir simultanément une référence mutable et une référence immutable vers une même donnée.
 
 Ces principes permettent de garantir la non concurrence dans l'accès aux données.
+
+[Sommaire]
+
+
+  [Sommaire]: ../../Readme.md

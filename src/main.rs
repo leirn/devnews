@@ -1,4 +1,5 @@
 mod borrowing;
+mod errors;
 mod mutability;
 mod ownership;
 mod traits;
@@ -20,4 +21,7 @@ fn main() {
 
     traits::structs::play_with_rectangle();
     traits::traits::traits();
+
+    errors::traitement_des_cas(errors::Nombres::UN);
+    errors::traitement_des_erreurs();
 }

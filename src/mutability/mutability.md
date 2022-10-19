@@ -36,4 +36,4 @@ Pourtant, elle permet :
 [Sommaire]
 
 
-  [Sommaire]: ../Intro.md
+  [Sommaire]: ../../Readme.md
