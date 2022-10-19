@@ -1,3 +1,5 @@
+#![allow(dead_code,unused_variables)]
+
 pub fn mutability1() {
     let x = 5_u8; // x est immutable
     println!("The value of x is: {x}");
@@ -21,8 +23,8 @@ pub fn mutability3() {
 
 pub fn mutability4() {
     // Le type de const doit être explicite et non inféré
-    const x: u32 = 5;
-    println!("The value of x is: {x}");
-    // x = 6; // on ne peut pas modifier une constante
-    println!("The value of x is: {x}");
+    const X: u32 = 5;
+    println!("The value of x is: {X}");
+    // X = 6; // on ne peut pas modifier une constante
+    println!("The value of x is: {X}");
 }

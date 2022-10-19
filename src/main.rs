@@ -9,6 +9,7 @@ fn main() {
     mutability::mutability1();
     mutability::mutability2();
     mutability::mutability3();
+    mutability::mutability4();
 
     ownership::ownership1();
     ownership::ownership2();
@@ -20,8 +21,8 @@ fn main() {
     borrowing::borrowing5();
 
     traits::structs::play_with_rectangle();
-    traits::traits::traits();
+    traits::behaviours::traits();
 
-    errors::traitement_des_cas(errors::Nombres::UN);
+    errors::traitement_des_cas(errors::Nombres::Un);
     errors::traitement_des_erreurs();
 }

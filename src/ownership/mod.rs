@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables)]
+
 pub fn ownership1() {
     // La structure String est allouée en heap
     let s1 = String::from("hello");

@@ -1,17 +1,19 @@
+#![allow(dead_code)]
+
 pub enum Nombres {
-    UN,
-    DEUX,
-    TROIS,
-    QUATRE,
-    CINQ,
-    SIX,
+    Un,
+    Deux,
+    Trois,
+    Quatre,
+    Cinq,
+    Six,
 }
 
 pub fn traitement_des_cas(nombre: Nombres) {
     match nombre {
-        Nombres::UN => println!("1"),
-        Nombres::DEUX | Nombres::TROIS => println!("2 ou 3"),
-        Nombres::QUATRE => println!("4"),
+        Nombres::Un => println!("1"),
+        Nombres::Deux | Nombres::Trois => println!("2 ou 3"),
+        Nombres::Quatre => println!("4"),
         _ => println!("Plus que 4)"),
     }
 }

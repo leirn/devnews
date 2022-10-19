@@ -28,7 +28,7 @@ impl Rectangle {
 
 pub fn play_with_rectangle() {
     let mut rect = Rectangle::new(10, 15);
-    assert_eq!(rect.is_square(), false);
+    assert!(rect.is_square());
 
     rect.widden();
 
