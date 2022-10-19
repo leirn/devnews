@@ -1,14 +1,14 @@
 #![allow(unused_variables, unused_mut)]
 
 pub fn borrowing1() {
-    let mut s = String::from("hello");
+    let mut s = String::from("こんにちは世界");
     let r1 = &mut s;
     // let r2 = &mut s; // Impossible car il y a déjà une référence mutable vers s
     // println!("{} {}", r1, r2);
 }
 
 pub fn borrowing2() {
-    let mut s = String::from("hello");
+    let mut s = String::from("こんにちは世界");
 
     {
         let r1 = &mut s;
@@ -20,13 +20,13 @@ pub fn borrowing2() {
 }
 
 pub fn borrowing3() {
-    let mut s = String::from("hello");
+    let mut s = String::from("こんにちは世界");
     let r1 = &s;
     let r2 = &s; // Possible car il y a uniquement des références immutables vers s
 }
 
 pub fn borrowing4() {
-    let mut s = String::from("hello");
+    let mut s = String::from("こんにちは世界");
     let r1 = &s;
     let r2 = &s;
     // let r3 = &mut s; // Impossible car il y a déjà des référence immmutable vers s
@@ -34,7 +34,7 @@ pub fn borrowing4() {
 }
 
 pub fn borrowing5() {
-    let mut s = String::from("hello");
+    let mut s = String::from("こんにちは世界");
     let r1 = &s;
     let r2 = &s;
     println!("{} {}", r1, r2);
