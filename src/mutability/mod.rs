@@ -23,6 +23,6 @@ pub fn mutability4() {
     // Le type de const doit être explicite et non inféré
     const x: u32 = 5;
     println!("The value of x is: {x}");
-    x = 6; // on ne peut pas modifier une constante
+    // x = 6; // on ne peut pas modifier une constante
     println!("The value of x is: {x}");
 }
