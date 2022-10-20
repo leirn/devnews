@@ -13,7 +13,8 @@ output: html_document
 
 # Les différentes fonctionnalités de Rust
 
-- Bas niveau : contrôle précis sur la machine
+- Orienté programmation fonctionnelle
+- Orienté bas niveau : contrôle précis sur la machine, mais sans les erreurs de mémoire ou de concurrence
 - Cargo : logiciel de gestion des packages plébiscité par les développeurs
 - L'environnement de dev devient rapidement ton meilleur ami : Messages d'erreurs précis, suggestions de correction, linter (Clippy)
 - Bien souvent en Rust, un code qui compile est un code qui fonctionne !
@@ -21,7 +22,7 @@ output: html_document
 # Les différentes caractéristiques du code Rust
 
 - [Mutability]
-- Strict typing, type inference
+- Fortement typé, inférence des types, pas de casting implicite
 - [Ownership] : gestion du borrowing et des durées de vie des variables
 - [Borrowing] : gestion des références sur une même donnée
 - Gestion systématique des [erreurs]
