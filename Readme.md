@@ -14,8 +14,9 @@ output: html_document
 # Les différentes fonctionnalités de Rust
 
 - Bas niveau : contrôle précis sur la machine
-- Cargo + gestion des packages
-- Compilo = ton meilleur ami
+- Cargo : logiciel de gestion des packages plébiscité par les développeurs
+- L'environnement de dev devient rapidement ton meilleur ami : Messages d'erreurs précis, suggestions de correction, linter (Clippy)
+- Bien souvent en Rust, un code qui compile est un code qui fonctionne !
 
 # Les différentes caractéristiques du code Rust
 
